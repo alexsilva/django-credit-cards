@@ -1,0 +1,51 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: creditcards 0.4.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-09-26 16:52-0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Alex <alex@fabricadigital.com.br>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+#: creditcards/models.py:18
+msgid "Card number"
+msgstr "Número do cartão"
+
+#: creditcards/models.py:37
+#, python-format
+msgid ""
+"'%(value)s' value has an invalid date format. Expiry date must be in the "
+"format MM/YY or MM/YYYY."
+msgstr ""
+"'O valor '%(value)s' tem um formato de data inválido. A data de expiração precisa estar no "
+"format MM/YY or MM/YYYY."
+
+#: creditcards/models.py:40
+msgid "Card expiration date"
+msgstr "Data de validade do cartão"
+
+#: creditcards/models.py:72
+msgid "Card security code"
+msgstr "Código de segurança do cartão"
+
+#: creditcards/validators.py:11
+msgid "Enter a valid credit card number."
+msgstr "Entre com um número de cartão válido."
+
+#: creditcards/validators.py:35
+msgid "Enter a valid security code."
+msgstr "Entre com um código de segurança válido."
+
+#: creditcards/validators.py:41
+msgid "This date has passed."
+msgstr "Esta data já passou."
